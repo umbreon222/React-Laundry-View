@@ -1,0 +1,25 @@
+import { Constants } from 'expo';
+
+const STATUS_BAR_HEIGHT = Constants.statusBarHeight;
+const WHITE_COLOR = '#ffffff';
+const PRIMARY_COLOR = '#00897b';
+const TEXT_PRIMARY_COLOR = '#000000';
+const PRIMARY_LIGHT_COLOR = '#4ebaaa';
+const TEXT_PRIMARY_LIGHT_COLOR = '#000000';
+const PRIMARY_DARK_COLOR = '#005b4f';
+const TEXT_PRIMARY_DARK_COLOR = '#ffffff';
+const BACKGROUND_COLOR = '#D3D3D3';
+const PHONE_NUMBER = '6085550172'; // https://fakenumber.org/us/madison
+
+export {
+  STATUS_BAR_HEIGHT,
+  WHITE_COLOR,
+  PRIMARY_COLOR,
+  TEXT_PRIMARY_COLOR,
+  PRIMARY_LIGHT_COLOR,
+  TEXT_PRIMARY_LIGHT_COLOR,
+  PRIMARY_DARK_COLOR,
+  TEXT_PRIMARY_DARK_COLOR,
+  BACKGROUND_COLOR,
+  PHONE_NUMBER,
+};
