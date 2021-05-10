@@ -6,15 +6,13 @@ import {
   TouchableOpacity,
   Image,
 } from 'react-native';
-import {
-  AppLoading,
-  Asset,
-} from 'expo';
+import { Asset } from 'expo-asset';
+import AppLoading from 'expo-app-loading';
 import {
   createStackNavigator,
   createAppContainer,
 } from 'react-navigation';
-import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs';
+import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import {

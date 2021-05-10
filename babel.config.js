@@ -5,7 +5,7 @@ module.exports = (api) => {
       'babel-preset-expo',
     ],
     plugins: [
-      'transform-optional-chaining',
+      '@babel/plugin-proposal-optional-chaining',
     ],
   };
 };
